@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A5C910AEFE98A32FD64AB32 /* Pods_iMoodi_iMoodiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5EA476ABFE6AC8A770F6A4 /* Pods_iMoodi_iMoodiUITests.framework */; };
+		0B44B367C7C77291F54977CC /* Pods_iMoodiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD9C11074CDD50A75F9475E4 /* Pods_iMoodiTests.framework */; };
+		87D9A054E3BAF58153D88971 /* Pods_iMoodi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4306AE13CBF2CE02C4D26D90 /* Pods_iMoodi.framework */; };
 		890D480D2B39A889002140BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890D480C2B39A889002140BD /* AppDelegate.swift */; };
 		890D480F2B39A88A002140BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890D480E2B39A88A002140BD /* SceneDelegate.swift */; };
 		890D48112B39A88A002140BD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890D48102B39A88A002140BD /* HomeViewController.swift */; };
@@ -38,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4306AE13CBF2CE02C4D26D90 /* Pods_iMoodi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iMoodi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		538579C03F333B5F6BB84FEC /* Pods-iMoodiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMoodiTests.release.xcconfig"; path = "Target Support Files/Pods-iMoodiTests/Pods-iMoodiTests.release.xcconfig"; sourceTree = "<group>"; };
 		890D48092B39A889002140BD /* iMoodi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMoodi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		890D480C2B39A889002140BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		890D480E2B39A88A002140BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +58,13 @@
 		890D482F2B39A88B002140BD /* iMoodiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMoodiUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		89C869B52B3EC8880035D4F0 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		89C869B72B3EC89D0035D4F0 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		A075D8C1C242F4DF2F99F2D6 /* Pods-iMoodiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMoodiTests.debug.xcconfig"; path = "Target Support Files/Pods-iMoodiTests/Pods-iMoodiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BCF88BA8558419146A58131D /* Pods-iMoodi-iMoodiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMoodi-iMoodiUITests.release.xcconfig"; path = "Target Support Files/Pods-iMoodi-iMoodiUITests/Pods-iMoodi-iMoodiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BD9C11074CDD50A75F9475E4 /* Pods_iMoodiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iMoodiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE5EA476ABFE6AC8A770F6A4 /* Pods_iMoodi_iMoodiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iMoodi_iMoodiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE75A19644E2451117871BAF /* Pods-iMoodi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMoodi.release.xcconfig"; path = "Target Support Files/Pods-iMoodi/Pods-iMoodi.release.xcconfig"; sourceTree = "<group>"; };
+		F448AC129833E9BCA6C67D13 /* Pods-iMoodi-iMoodiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMoodi-iMoodiUITests.debug.xcconfig"; path = "Target Support Files/Pods-iMoodi-iMoodiUITests/Pods-iMoodi-iMoodiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD19BFB2A2FE0D04C0299207 /* Pods-iMoodi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMoodi.debug.xcconfig"; path = "Target Support Files/Pods-iMoodi/Pods-iMoodi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87D9A054E3BAF58153D88971 /* Pods_iMoodi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B44B367C7C77291F54977CC /* Pods_iMoodiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +88,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A5C910AEFE98A32FD64AB32 /* Pods_iMoodi_iMoodiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01B72EC8FE089C473DB4D21E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD19BFB2A2FE0D04C0299207 /* Pods-iMoodi.debug.xcconfig */,
+				EE75A19644E2451117871BAF /* Pods-iMoodi.release.xcconfig */,
+				F448AC129833E9BCA6C67D13 /* Pods-iMoodi-iMoodiUITests.debug.xcconfig */,
+				BCF88BA8558419146A58131D /* Pods-iMoodi-iMoodiUITests.release.xcconfig */,
+				A075D8C1C242F4DF2F99F2D6 /* Pods-iMoodiTests.debug.xcconfig */,
+				538579C03F333B5F6BB84FEC /* Pods-iMoodiTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4929D002B84184730BDEAD86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4306AE13CBF2CE02C4D26D90 /* Pods_iMoodi.framework */,
+				EE5EA476ABFE6AC8A770F6A4 /* Pods_iMoodi_iMoodiUITests.framework */,
+				BD9C11074CDD50A75F9475E4 /* Pods_iMoodiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		890D48002B39A889002140BD = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +126,8 @@
 				890D48222B39A88B002140BD /* iMoodiTests */,
 				890D482C2B39A88B002140BD /* iMoodiUITests */,
 				890D480A2B39A889002140BD /* Products */,
+				01B72EC8FE089C473DB4D21E /* Pods */,
+				4929D002B84184730BDEAD86 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,9 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 890D48332B39A88B002140BD /* Build configuration list for PBXNativeTarget "iMoodi" */;
 			buildPhases = (
+				A70BC3966F430266E7400126 /* [CP] Check Pods Manifest.lock */,
 				890D48052B39A889002140BD /* Sources */,
 				890D48062B39A889002140BD /* Frameworks */,
 				890D48072B39A889002140BD /* Resources */,
+				22A5F4FD49875462F991EBFC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -165,6 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 890D48362B39A88B002140BD /* Build configuration list for PBXNativeTarget "iMoodiTests" */;
 			buildPhases = (
+				02CAECD45119C2F94C3787C6 /* [CP] Check Pods Manifest.lock */,
 				890D481B2B39A88B002140BD /* Sources */,
 				890D481C2B39A88B002140BD /* Frameworks */,
 				890D481D2B39A88B002140BD /* Resources */,
@@ -183,9 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 890D48392B39A88B002140BD /* Build configuration list for PBXNativeTarget "iMoodiUITests" */;
 			buildPhases = (
+				3FBC322D5F9DEB537DD80610 /* [CP] Check Pods Manifest.lock */,
 				890D48252B39A88B002140BD /* Sources */,
 				890D48262B39A88B002140BD /* Frameworks */,
 				890D48272B39A88B002140BD /* Resources */,
+				8673A0820BFE31C1D51C12B4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -266,6 +312,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02CAECD45119C2F94C3787C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iMoodiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22A5F4FD49875462F991EBFC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iMoodi/Pods-iMoodi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iMoodi/Pods-iMoodi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iMoodi/Pods-iMoodi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FBC322D5F9DEB537DD80610 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iMoodi-iMoodiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8673A0820BFE31C1D51C12B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iMoodi-iMoodiUITests/Pods-iMoodi-iMoodiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iMoodi-iMoodiUITests/Pods-iMoodi-iMoodiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iMoodi-iMoodiUITests/Pods-iMoodi-iMoodiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A70BC3966F430266E7400126 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iMoodi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		890D48052B39A889002140BD /* Sources */ = {
@@ -453,6 +602,7 @@
 		};
 		890D48342B39A88B002140BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD19BFB2A2FE0D04C0299207 /* Pods-iMoodi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -481,6 +631,7 @@
 		};
 		890D48352B39A88B002140BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE75A19644E2451117871BAF /* Pods-iMoodi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -509,6 +660,7 @@
 		};
 		890D48372B39A88B002140BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A075D8C1C242F4DF2F99F2D6 /* Pods-iMoodiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -529,6 +681,7 @@
 		};
 		890D48382B39A88B002140BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 538579C03F333B5F6BB84FEC /* Pods-iMoodiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -549,6 +702,7 @@
 		};
 		890D483A2B39A88B002140BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F448AC129833E9BCA6C67D13 /* Pods-iMoodi-iMoodiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -567,6 +721,7 @@
 		};
 		890D483B2B39A88B002140BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCF88BA8558419146A58131D /* Pods-iMoodi-iMoodiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

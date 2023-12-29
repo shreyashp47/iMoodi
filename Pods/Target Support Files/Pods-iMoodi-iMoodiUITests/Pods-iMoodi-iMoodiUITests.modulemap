@@ -1,0 +1,6 @@
+framework module Pods_iMoodi_iMoodiUITests {
+  umbrella header "Pods-iMoodi-iMoodiUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
