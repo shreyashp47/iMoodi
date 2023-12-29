@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		890D480D2B39A889002140BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890D480C2B39A889002140BD /* AppDelegate.swift */; };
 		890D480F2B39A88A002140BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890D480E2B39A88A002140BD /* SceneDelegate.swift */; };
-		890D48112B39A88A002140BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890D48102B39A88A002140BD /* ViewController.swift */; };
+		890D48112B39A88A002140BD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890D48102B39A88A002140BD /* HomeViewController.swift */; };
 		890D48142B39A88A002140BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 890D48122B39A88A002140BD /* Main.storyboard */; };
 		890D48162B39A88B002140BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 890D48152B39A88B002140BD /* Assets.xcassets */; };
 		890D48192B39A88B002140BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 890D48172B39A88B002140BD /* LaunchScreen.storyboard */; };
 		890D48242B39A88B002140BD /* iMoodiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890D48232B39A88B002140BD /* iMoodiTests.swift */; };
 		890D482E2B39A88B002140BD /* iMoodiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890D482D2B39A88B002140BD /* iMoodiUITests.swift */; };
 		890D48302B39A88B002140BD /* iMoodiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890D482F2B39A88B002140BD /* iMoodiUITestsLaunchTests.swift */; };
+		89C869B62B3EC8880035D4F0 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C869B52B3EC8880035D4F0 /* SearchViewController.swift */; };
+		89C869B82B3EC89D0035D4F0 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C869B72B3EC89D0035D4F0 /* ChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,7 @@
 		890D48092B39A889002140BD /* iMoodi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMoodi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		890D480C2B39A889002140BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		890D480E2B39A88A002140BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		890D48102B39A88A002140BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		890D48102B39A88A002140BD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		890D48132B39A88A002140BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		890D48152B39A88B002140BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		890D48182B39A88B002140BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		890D48292B39A88B002140BD /* iMoodiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMoodiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		890D482D2B39A88B002140BD /* iMoodiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMoodiUITests.swift; sourceTree = "<group>"; };
 		890D482F2B39A88B002140BD /* iMoodiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMoodiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		89C869B52B3EC8880035D4F0 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		89C869B72B3EC89D0035D4F0 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +103,9 @@
 		890D480B2B39A889002140BD /* iMoodi */ = {
 			isa = PBXGroup;
 			children = (
+				89C869B42B3EC84D0035D4F0 /* Controllers */,
 				890D480C2B39A889002140BD /* AppDelegate.swift */,
 				890D480E2B39A88A002140BD /* SceneDelegate.swift */,
-				890D48102B39A88A002140BD /* ViewController.swift */,
 				890D48122B39A88A002140BD /* Main.storyboard */,
 				890D48152B39A88B002140BD /* Assets.xcassets */,
 				890D48172B39A88B002140BD /* LaunchScreen.storyboard */,
@@ -125,6 +129,16 @@
 				890D482F2B39A88B002140BD /* iMoodiUITestsLaunchTests.swift */,
 			);
 			path = iMoodiUITests;
+			sourceTree = "<group>";
+		};
+		89C869B42B3EC84D0035D4F0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				890D48102B39A88A002140BD /* HomeViewController.swift */,
+				89C869B52B3EC8880035D4F0 /* SearchViewController.swift */,
+				89C869B72B3EC89D0035D4F0 /* ChatViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				890D48112B39A88A002140BD /* ViewController.swift in Sources */,
+				890D48112B39A88A002140BD /* HomeViewController.swift in Sources */,
 				890D480D2B39A889002140BD /* AppDelegate.swift in Sources */,
+				89C869B62B3EC8880035D4F0 /* SearchViewController.swift in Sources */,
+				89C869B82B3EC89D0035D4F0 /* ChatViewController.swift in Sources */,
 				890D480F2B39A88A002140BD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
