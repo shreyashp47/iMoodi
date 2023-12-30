@@ -9,15 +9,18 @@ import Foundation
 
 
 struct PhotoListData: Codable {
-    let name: String
-    let main: Main
-    let weather: [Weather]
+    
+    let id: String?
+    let description: String?
+    let urls: URLs?
+    let user: Users?
 }
 
-struct Main: Codable{
-    let temp: Double
+struct URLs: Codable{
+    let raw: String
+    let small: String
 }
-struct Weather: Codable{
-    let description: String
-    let id: Int
+struct Users: Codable{
+    let username: String
+    let id: String
 }
