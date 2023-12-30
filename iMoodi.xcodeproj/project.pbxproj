@@ -19,8 +19,16 @@
 		890D48242B39A88B002140BD /* iMoodiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890D48232B39A88B002140BD /* iMoodiTests.swift */; };
 		890D482E2B39A88B002140BD /* iMoodiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890D482D2B39A88B002140BD /* iMoodiUITests.swift */; };
 		890D48302B39A88B002140BD /* iMoodiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890D482F2B39A88B002140BD /* iMoodiUITestsLaunchTests.swift */; };
+		89A6FDD92B3FF1B300CE4B6A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A6FDD82B3FF1B300CE4B6A /* Constants.swift */; };
+		89A6FDDB2B3FF3C700CE4B6A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89A6FDDA2B3FF3C700CE4B6A /* GoogleService-Info.plist */; };
+		89A6FDDD2B3FF48500CE4B6A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A6FDDC2B3FF48500CE4B6A /* LoginViewController.swift */; };
 		89C869B62B3EC8880035D4F0 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C869B52B3EC8880035D4F0 /* SearchViewController.swift */; };
 		89C869B82B3EC89D0035D4F0 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C869B72B3EC89D0035D4F0 /* ChatViewController.swift */; };
+		89D04E252B4014A0002921CF /* FeedsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D04E232B4014A0002921CF /* FeedsViewCell.swift */; };
+		89D04E262B4014A0002921CF /* FeedsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89D04E242B4014A0002921CF /* FeedsViewCell.xib */; };
+		89D04E292B401881002921CF /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D04E282B401881002921CF /* ApiManager.swift */; };
+		89D04E2B2B40190E002921CF /* PhotoListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D04E2A2B40190E002921CF /* PhotoListData.swift */; };
+		89D04E2D2B401AC5002921CF /* PhotoListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D04E2C2B401AC5002921CF /* PhotoListModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,8 +64,16 @@
 		890D48292B39A88B002140BD /* iMoodiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMoodiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		890D482D2B39A88B002140BD /* iMoodiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMoodiUITests.swift; sourceTree = "<group>"; };
 		890D482F2B39A88B002140BD /* iMoodiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMoodiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		89A6FDD82B3FF1B300CE4B6A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		89A6FDDA2B3FF3C700CE4B6A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		89A6FDDC2B3FF48500CE4B6A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		89C869B52B3EC8880035D4F0 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		89C869B72B3EC89D0035D4F0 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		89D04E232B4014A0002921CF /* FeedsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedsViewCell.swift; sourceTree = "<group>"; };
+		89D04E242B4014A0002921CF /* FeedsViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedsViewCell.xib; sourceTree = "<group>"; };
+		89D04E282B401881002921CF /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		89D04E2A2B40190E002921CF /* PhotoListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListData.swift; sourceTree = "<group>"; };
+		89D04E2C2B401AC5002921CF /* PhotoListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListModel.swift; sourceTree = "<group>"; };
 		A075D8C1C242F4DF2F99F2D6 /* Pods-iMoodiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMoodiTests.debug.xcconfig"; path = "Target Support Files/Pods-iMoodiTests/Pods-iMoodiTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BCF88BA8558419146A58131D /* Pods-iMoodi-iMoodiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMoodi-iMoodiUITests.release.xcconfig"; path = "Target Support Files/Pods-iMoodi-iMoodiUITests/Pods-iMoodi-iMoodiUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BD9C11074CDD50A75F9475E4 /* Pods_iMoodiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iMoodiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,7 +121,6 @@
 				A075D8C1C242F4DF2F99F2D6 /* Pods-iMoodiTests.debug.xcconfig */,
 				538579C03F333B5F6BB84FEC /* Pods-iMoodiTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,13 +159,17 @@
 		890D480B2B39A889002140BD /* iMoodi */ = {
 			isa = PBXGroup;
 			children = (
-				89C869B42B3EC84D0035D4F0 /* Controllers */,
 				890D480C2B39A889002140BD /* AppDelegate.swift */,
-				890D480E2B39A88A002140BD /* SceneDelegate.swift */,
-				890D48122B39A88A002140BD /* Main.storyboard */,
 				890D48152B39A88B002140BD /* Assets.xcassets */,
-				890D48172B39A88B002140BD /* LaunchScreen.storyboard */,
+				89A6FDD82B3FF1B300CE4B6A /* Constants.swift */,
+				89C869B42B3EC84D0035D4F0 /* Controllers */,
+				89A6FDDA2B3FF3C700CE4B6A /* GoogleService-Info.plist */,
 				890D481A2B39A88B002140BD /* Info.plist */,
+				890D48172B39A88B002140BD /* LaunchScreen.storyboard */,
+				890D48122B39A88A002140BD /* Main.storyboard */,
+				89D04E272B401858002921CF /* Model */,
+				890D480E2B39A88A002140BD /* SceneDelegate.swift */,
+				89D04E222B401439002921CF /* Views */,
 			);
 			path = iMoodi;
 			sourceTree = "<group>";
@@ -178,8 +197,28 @@
 				890D48102B39A88A002140BD /* HomeViewController.swift */,
 				89C869B52B3EC8880035D4F0 /* SearchViewController.swift */,
 				89C869B72B3EC89D0035D4F0 /* ChatViewController.swift */,
+				89A6FDDC2B3FF48500CE4B6A /* LoginViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		89D04E222B401439002921CF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				89D04E232B4014A0002921CF /* FeedsViewCell.swift */,
+				89D04E242B4014A0002921CF /* FeedsViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		89D04E272B401858002921CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				89D04E282B401881002921CF /* ApiManager.swift */,
+				89D04E2A2B40190E002921CF /* PhotoListData.swift */,
+				89D04E2C2B401AC5002921CF /* PhotoListModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,6 +331,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				890D48192B39A88B002140BD /* LaunchScreen.storyboard in Resources */,
+				89A6FDDB2B3FF3C700CE4B6A /* GoogleService-Info.plist in Resources */,
+				89D04E262B4014A0002921CF /* FeedsViewCell.xib in Resources */,
 				890D48162B39A88B002140BD /* Assets.xcassets in Resources */,
 				890D48142B39A88A002140BD /* Main.storyboard in Resources */,
 			);
@@ -421,11 +462,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89D04E252B4014A0002921CF /* FeedsViewCell.swift in Sources */,
+				89D04E292B401881002921CF /* ApiManager.swift in Sources */,
+				89A6FDDD2B3FF48500CE4B6A /* LoginViewController.swift in Sources */,
 				890D48112B39A88A002140BD /* HomeViewController.swift in Sources */,
+				89D04E2B2B40190E002921CF /* PhotoListData.swift in Sources */,
 				890D480D2B39A889002140BD /* AppDelegate.swift in Sources */,
 				89C869B62B3EC8880035D4F0 /* SearchViewController.swift in Sources */,
 				89C869B82B3EC89D0035D4F0 /* ChatViewController.swift in Sources */,
 				890D480F2B39A88A002140BD /* SceneDelegate.swift in Sources */,
+				89A6FDD92B3FF1B300CE4B6A /* Constants.swift in Sources */,
+				89D04E2D2B401AC5002921CF /* PhotoListModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -609,6 +656,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GK4JYGZS48;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iMoodi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -638,6 +686,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GK4JYGZS48;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iMoodi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5E0E8357-F919-400B-AE8A-09FDD9E098F4"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B90564C-4976-46E2-9BF2-30429E8247B7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iMoodi/Model/ApiManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "performRequest(urlString:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0B90564C-4976-46E2-9BF2-30429E8247B7 - 6e0fc61366e2a807"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iMoodi.ApiManager.performRequest(urlString: Swift.String) -&gt; ()"
+                  moduleName = "iMoodi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shreyash/Downloads/IOS%20Project/iMoodi/iMoodi/Model/ApiManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "268">
+               </Location>
+               <Location
+                  uuid = "0B90564C-4976-46E2-9BF2-30429E8247B7 - 6e0fc61366e2a807"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iMoodi.ApiManager.performRequest(urlString: Swift.String) -&gt; ()"
+                  moduleName = "iMoodi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shreyash/Downloads/IOS%20Project/iMoodi/iMoodi/Model/ApiManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "356">
+               </Location>
+               <Location
+                  uuid = "0B90564C-4976-46E2-9BF2-30429E8247B7 - 6e0fc61366e2a9c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iMoodi.ApiManager.performRequest(urlString: Swift.String) -&gt; ()"
+                  moduleName = "iMoodi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shreyash/Downloads/IOS%20Project/iMoodi/iMoodi/Model/ApiManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "372">
+               </Location>
+               <Location
+                  uuid = "0B90564C-4976-46E2-9BF2-30429E8247B7 - 6e0fc61366e2a9e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iMoodi.ApiManager.performRequest(urlString: Swift.String) -&gt; ()"
+                  moduleName = "iMoodi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shreyash/Downloads/IOS%20Project/iMoodi/iMoodi/Model/ApiManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "268">
+               </Location>
+               <Location
+                  uuid = "0B90564C-4976-46E2-9BF2-30429E8247B7 - 6e0fc61366e2a9e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iMoodi.ApiManager.performRequest(urlString: Swift.String) -&gt; ()"
+                  moduleName = "iMoodi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shreyash/Downloads/IOS%20Project/iMoodi/iMoodi/Model/ApiManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "356">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

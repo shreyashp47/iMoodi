@@ -10,6 +10,7 @@ target 'iMoodi' do
   pod 'FirebaseAnalytics'
   pod 'FirebaseAuth'
   pod 'FirebaseFirestore'
+  pod 'IQKeyboardManagerSwift'
 
   target 'iMoodiTests' do
     inherit! :search_paths

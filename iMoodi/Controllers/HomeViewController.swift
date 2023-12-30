@@ -8,13 +8,30 @@
 import UIKit
 
 class HomeViewController: UIViewController {
+    
+    var apiManager = ApiManager()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-       
+        apiManager.fetchPhotoList()
     }
 
 
+}
+
+extension HomeViewController: APIManagerDelegate {
+    func didUpdateAPIList(_ apimanager: ApiManager, photoListData: PhotoListModel) {
+        print("didUpdateAPIList")
+    }
+    
+  
+    
+    func didFailWithError(error: Error) {
+        print("didFailWithError")
+    }
+    
+    
+    
 }
 
