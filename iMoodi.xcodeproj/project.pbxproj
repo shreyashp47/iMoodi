@@ -19,6 +19,8 @@
 		890D48242B39A88B002140BD /* iMoodiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890D48232B39A88B002140BD /* iMoodiTests.swift */; };
 		890D482E2B39A88B002140BD /* iMoodiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890D482D2B39A88B002140BD /* iMoodiUITests.swift */; };
 		890D48302B39A88B002140BD /* iMoodiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890D482F2B39A88B002140BD /* iMoodiUITestsLaunchTests.swift */; };
+		897CB9902B41A61A00E8CCBE /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897CB98E2B41A61A00E8CCBE /* MessageCell.swift */; };
+		897CB9912B41A61A00E8CCBE /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 897CB98F2B41A61A00E8CCBE /* MessageCell.xib */; };
 		89A6FDD92B3FF1B300CE4B6A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A6FDD82B3FF1B300CE4B6A /* Constants.swift */; };
 		89A6FDDB2B3FF3C700CE4B6A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89A6FDDA2B3FF3C700CE4B6A /* GoogleService-Info.plist */; };
 		89A6FDDD2B3FF48500CE4B6A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A6FDDC2B3FF48500CE4B6A /* LoginViewController.swift */; };
@@ -64,6 +66,8 @@
 		890D48292B39A88B002140BD /* iMoodiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMoodiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		890D482D2B39A88B002140BD /* iMoodiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMoodiUITests.swift; sourceTree = "<group>"; };
 		890D482F2B39A88B002140BD /* iMoodiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMoodiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		897CB98E2B41A61A00E8CCBE /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		897CB98F2B41A61A00E8CCBE /* MessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 		89A6FDD82B3FF1B300CE4B6A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		89A6FDDA2B3FF3C700CE4B6A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		89A6FDDC2B3FF48500CE4B6A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -163,13 +167,13 @@
 				890D48152B39A88B002140BD /* Assets.xcassets */,
 				89A6FDD82B3FF1B300CE4B6A /* Constants.swift */,
 				89C869B42B3EC84D0035D4F0 /* Controllers */,
+				89D04E222B401439002921CF /* Views */,
 				89A6FDDA2B3FF3C700CE4B6A /* GoogleService-Info.plist */,
 				890D481A2B39A88B002140BD /* Info.plist */,
 				890D48172B39A88B002140BD /* LaunchScreen.storyboard */,
 				890D48122B39A88A002140BD /* Main.storyboard */,
 				89D04E272B401858002921CF /* Model */,
 				890D480E2B39A88A002140BD /* SceneDelegate.swift */,
-				89D04E222B401439002921CF /* Views */,
 			);
 			path = iMoodi;
 			sourceTree = "<group>";
@@ -205,6 +209,8 @@
 		89D04E222B401439002921CF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				897CB98E2B41A61A00E8CCBE /* MessageCell.swift */,
+				897CB98F2B41A61A00E8CCBE /* MessageCell.xib */,
 				89D04E232B4014A0002921CF /* FeedsViewCell.swift */,
 				89D04E242B4014A0002921CF /* FeedsViewCell.xib */,
 			);
@@ -331,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				890D48192B39A88B002140BD /* LaunchScreen.storyboard in Resources */,
+				897CB9912B41A61A00E8CCBE /* MessageCell.xib in Resources */,
 				89A6FDDB2B3FF3C700CE4B6A /* GoogleService-Info.plist in Resources */,
 				89D04E262B4014A0002921CF /* FeedsViewCell.xib in Resources */,
 				890D48162B39A88B002140BD /* Assets.xcassets in Resources */,
@@ -467,6 +474,7 @@
 				89A6FDDD2B3FF48500CE4B6A /* LoginViewController.swift in Sources */,
 				890D48112B39A88A002140BD /* HomeViewController.swift in Sources */,
 				89D04E2B2B40190E002921CF /* PhotoListData.swift in Sources */,
+				897CB9902B41A61A00E8CCBE /* MessageCell.swift in Sources */,
 				890D480D2B39A889002140BD /* AppDelegate.swift in Sources */,
 				89C869B62B3EC8880035D4F0 /* SearchViewController.swift in Sources */,
 				89C869B82B3EC89D0035D4F0 /* ChatViewController.swift in Sources */,
