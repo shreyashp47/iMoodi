@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bBX-dJ-EJN">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
@@ -18,10 +18,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="center" axis="vertical" alignment="top" spacing="37" translatesAutoresizingMaskIntoConstraints="NO" id="2cn-9v-IrM">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="803"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="GAy-3s-gPE">
-                                        <rect key="frame" x="0.0" y="0.0" width="196.33333333333334" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="50"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MeAvatar" translatesAutoresizingMaskIntoConstraints="NO" id="cR2-HT-i1M">
                                                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
@@ -31,18 +31,28 @@
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hi Shreyash" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FdG-oO-6N3">
-                                                <rect key="frame" x="58" y="0.0" width="138.33333333333334" height="50"/>
+                                                <rect key="frame" x="58" y="0.0" width="335" height="50"/>
                                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="23"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="oLP-vO-Wjm">
-                                        <rect key="frame" x="0.0" y="87" width="390" height="765"/>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="oLP-vO-Wjm">
+                                        <rect key="frame" x="0.0" y="87" width="393" height="716"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </tableView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="oLP-vO-Wjm" firstAttribute="top" secondItem="GAy-3s-gPE" secondAttribute="bottom" constant="37" id="03c-H9-JZB"/>
+                                    <constraint firstAttribute="trailing" secondItem="oLP-vO-Wjm" secondAttribute="trailing" id="2sl-nk-U2v"/>
+                                    <constraint firstAttribute="bottom" secondItem="oLP-vO-Wjm" secondAttribute="bottom" id="M34-TA-PPT"/>
+                                    <constraint firstItem="GAy-3s-gPE" firstAttribute="top" secondItem="2cn-9v-IrM" secondAttribute="top" id="NgV-X2-fG7"/>
+                                    <constraint firstItem="oLP-vO-Wjm" firstAttribute="top" secondItem="GAy-3s-gPE" secondAttribute="bottom" id="b9C-4M-gBA"/>
+                                    <constraint firstItem="GAy-3s-gPE" firstAttribute="leading" secondItem="2cn-9v-IrM" secondAttribute="leading" id="dYQ-jT-ipg"/>
+                                    <constraint firstItem="oLP-vO-Wjm" firstAttribute="leading" secondItem="2cn-9v-IrM" secondAttribute="leading" id="rYA-JH-5gp"/>
+                                    <constraint firstAttribute="trailing" secondItem="GAy-3s-gPE" secondAttribute="trailing" id="zli-4x-Aeg"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -59,6 +69,11 @@
                     <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" selectedImage="house.fill" id="j3Y-bF-cI2">
                         <color key="badgeColor" red="0.45490193369999998" green="0.37254902719999999" blue="0.32549020649999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="profileImageVIew" destination="cR2-HT-i1M" id="9bh-lO-aIH"/>
+                        <outlet property="profileNameLabel" destination="FdG-oO-6N3" id="DiU-5d-tNG"/>
+                        <outlet property="tableView" destination="oLP-vO-Wjm" id="H8G-fI-ueo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -148,7 +163,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="hyI-Vg-Qxr">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                         <subviews>
-                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="4Gu-dR-ax7">
+                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="4Gu-dR-ax7">
                                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                             </tableView>
@@ -174,6 +189,9 @@
                         <color key="backgroundColor" name="BrandLightPurple"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Chat" image="message" catalog="system" selectedImage="message" id="nrE-as-nVQ"/>
+                    <connections>
+                        <outlet property="tableView" destination="4Gu-dR-ax7" id="7WY-OS-pxR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kgb-Wr-0JL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
