@@ -69,7 +69,7 @@ extension HomeViewController : UITableViewDataSource {
         cell.label?.text = feeds[indexPath.row].description
         if let urlString = feeds[indexPath.row].urls?.raw,
            let url = URL(string: urlString) {
-            cell.imageView?.setImage(url: url, placeholder: UIImage.brandLogo)
+            //cell.imageView?.setImage(url: urlString, placeholder: nil)
         }
         
         
@@ -86,12 +86,29 @@ extension HomeViewController : UITableViewDataSource {
 }
 
 extension UIImageView {
-    func setImage(url: URL, placeholder: UIImage?) {
+    func setImage(url: String, placeholder: UIImage?) {
         self.image = placeholder
 
-        Task { [weak self] in
-            let (data, _) = try await URLSession.shared.data(from: url)
-            self?.image = UIImage(data: data)
-        }
+//        Task { [weak self] in
+//            let (data, _) = try await URLSession.shared.data(from: url)
+//            self?.image = UIImage(data: data)
+//        }
+        
+        if self.image == nil{
+                     self.image = placeholder
+               }
+
+               URLSession.shared.dataTask(with: NSURL(string: url)! as URL, completionHandler: { (data, response, error) -> Void in
+
+                   if error != nil {
+                       print(error ?? "No Error")
+                       return
+                   }
+                   DispatchQueue.main.async(execute: { () -> Void in
+                       let image = UIImage(data: data!)
+                       self.image = image
+                   })
+
+               }).resume()
     }
 }
