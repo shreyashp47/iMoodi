@@ -24,6 +24,8 @@
 		89A6FDD92B3FF1B300CE4B6A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A6FDD82B3FF1B300CE4B6A /* Constants.swift */; };
 		89A6FDDB2B3FF3C700CE4B6A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89A6FDDA2B3FF3C700CE4B6A /* GoogleService-Info.plist */; };
 		89A6FDDD2B3FF48500CE4B6A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A6FDDC2B3FF48500CE4B6A /* LoginViewController.swift */; };
+		89BAFAF42B4F83E7008E7B28 /* CreateUserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BAFAF32B4F83E7008E7B28 /* CreateUserController.swift */; };
+		89BAFAF62B4F868F008E7B28 /* ToastMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BAFAF52B4F868F008E7B28 /* ToastMessageView.swift */; };
 		89C869B62B3EC8880035D4F0 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C869B52B3EC8880035D4F0 /* SearchViewController.swift */; };
 		89C869B82B3EC89D0035D4F0 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C869B72B3EC89D0035D4F0 /* ChatViewController.swift */; };
 		89D04E252B4014A0002921CF /* FeedsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D04E232B4014A0002921CF /* FeedsViewCell.swift */; };
@@ -71,6 +73,8 @@
 		89A6FDD82B3FF1B300CE4B6A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		89A6FDDA2B3FF3C700CE4B6A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		89A6FDDC2B3FF48500CE4B6A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		89BAFAF32B4F83E7008E7B28 /* CreateUserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserController.swift; sourceTree = "<group>"; };
+		89BAFAF52B4F868F008E7B28 /* ToastMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastMessageView.swift; sourceTree = "<group>"; };
 		89C869B52B3EC8880035D4F0 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		89C869B72B3EC89D0035D4F0 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		89D04E232B4014A0002921CF /* FeedsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedsViewCell.swift; sourceTree = "<group>"; };
@@ -202,6 +206,7 @@
 				89C869B52B3EC8880035D4F0 /* SearchViewController.swift */,
 				89C869B72B3EC89D0035D4F0 /* ChatViewController.swift */,
 				89A6FDDC2B3FF48500CE4B6A /* LoginViewController.swift */,
+				89BAFAF32B4F83E7008E7B28 /* CreateUserController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -213,6 +218,7 @@
 				897CB98F2B41A61A00E8CCBE /* MessageCell.xib */,
 				89D04E232B4014A0002921CF /* FeedsViewCell.swift */,
 				89D04E242B4014A0002921CF /* FeedsViewCell.xib */,
+				89BAFAF52B4F868F008E7B28 /* ToastMessageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -473,8 +479,10 @@
 				89D04E292B401881002921CF /* ApiManager.swift in Sources */,
 				89A6FDDD2B3FF48500CE4B6A /* LoginViewController.swift in Sources */,
 				890D48112B39A88A002140BD /* HomeViewController.swift in Sources */,
+				89BAFAF62B4F868F008E7B28 /* ToastMessageView.swift in Sources */,
 				89D04E2B2B40190E002921CF /* PhotoListData.swift in Sources */,
 				897CB9902B41A61A00E8CCBE /* MessageCell.swift in Sources */,
+				89BAFAF42B4F83E7008E7B28 /* CreateUserController.swift in Sources */,
 				890D480D2B39A889002140BD /* AppDelegate.swift in Sources */,
 				89C869B62B3EC8880035D4F0 /* SearchViewController.swift in Sources */,
 				89C869B82B3EC89D0035D4F0 /* ChatViewController.swift in Sources */,
