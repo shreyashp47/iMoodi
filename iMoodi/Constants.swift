@@ -16,6 +16,10 @@ struct Constants
     static let messageSellNibName = "MessageCell"
     static let registerSegue = "RegisterToChat"
     static let loginSegue = "LoginToDashBoard"
+    static let isUserLoggedInKey = "isUserLoggedInKey"
+    static let userEmail = "user_email"
+    
+    
     
     struct BrandColors {
         static let purple = "BrandPurple"

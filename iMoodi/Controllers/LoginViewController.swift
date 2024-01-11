@@ -11,15 +11,22 @@ import FirebaseAuth
 
 class LoginViewController: UIViewController {
 
+    let toast = ToastMessageView()
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextfield: UITextField!
     
-    
+    override func viewDidAppear(_ animated: Bool) {
+           super.viewDidAppear(animated)
+
+           // Check if the user is already logged in
+           if UserDefaults.standard.bool(forKey: Constants.isUserLoggedInKey) {
+               self.performSegue(withIdentifier: Constants.loginSegue, sender: self)
+           }
+       }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+      
     }
     
 
@@ -34,9 +41,13 @@ class LoginViewController: UIViewController {
             
                  if let e = error {
                      print(e.localizedDescription)
+                     self.toast.showToast(message: e.localizedDescription)
                      //Make a toast to show error
                  } else {
-                     //Navigate to chatViewController
+                    UserDefaults.standard.set(true, forKey: Constants.isUserLoggedInKey)
+                    UserDefaults.standard.set(email, forKey: Constants.userEmail)
+                     
+                    UserDefaults.standard.synchronize()
                      self.performSegue(withIdentifier: Constants.loginSegue, sender: self)
                  }
                  

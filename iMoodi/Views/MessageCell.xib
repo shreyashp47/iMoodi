@@ -19,7 +19,7 @@
                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="YAg-gh-qmw">
                         <rect key="frame" x="8" y="8" width="300" height="346"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="le3-f6-dhJ">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image2" translatesAutoresizingMaskIntoConstraints="NO" id="le3-f6-dhJ">
                                 <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="qK6-EF-MZW"/>
@@ -75,5 +75,6 @@
     </objects>
     <resources>
         <image name="MeAvatar" width="36" height="36"/>
+        <image name="image2" width="8640" height="5760"/>
     </resources>
 </document>
